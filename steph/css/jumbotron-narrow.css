@@ -1,0 +1,216 @@
+/* Space out content a bit */
+body {
+  padding-top: 10px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  color: red;
+  background-color:#F6D150;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 10px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 0px;
+  color: white;
+  background-color: rgba(9,9,9,.5);
+  border-top: 0px solid #e5e5e5;
+  padding-bottom: 0px;
+  height: 3px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: px;
+  }
+}
+.container-narrow > hr {
+  margin: px ;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border: 10px solid #e5e5e5;
+  border-top: 10px solid ;
+  border-bottom: 10px solid #e5e5e5;
+  color: #0139BC;
+  background-color: white;
+  
+}
+.jumbotron .btn {
+  padding: 7px 10px;
+  font-size: 21px;
+}
+
+.jumbotron img {
+width: 75%;
+height: auto;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.footer h4{
+float: right;
+padding-right: 10px;
+padding-top: 0px;
+height: 0px;
+}
+
+.footer p{
+height: 0px;
+padding-bottom: -10px;
+padding-top: 10px;
+}
+
+
+#div6{
+color: white;
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+background:blue;
+border-radius: 20px;
+padding: 20px; 
+}
+
+#div7{
+color: white;
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+background:blue;
+border-radius: 20px;
+padding: 20px; 
+}
+
+#div8{
+color: white;
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+background:black;
+border-radius: 20px;
+padding: 20px; 	
+
+}
+
+#div9{
+color: white;
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+background:blue;
+border-radius: 20px;
+padding: 20px; 
+}
+
+#both{
+color: white;
+border-radius: 20px;
+padding: 20px; 
+border:1px solid white;
+background:black;	
+}
+
+#img{
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+}
+
+#img1{
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+}
+
+#img2{
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+}
+
+#img3{
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+}
+
+#img4{
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+}
+
+#img5{
+border: 1px solid white;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-right: 1px solid #e5e5e5;
+border-left: 1px solid #e5e5e5;
+}
+
+
+#nav{
+float: right;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 100;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+
+}
